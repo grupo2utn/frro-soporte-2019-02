@@ -1,8 +1,14 @@
 from tkinter import ttk
 from tkinter import *
 import tkinter as tk
-from TP6_Capa_Negocio import NegocioSocio
-from TP5_Ejercicio_01 import Socio
+
+import sys
+
+sys.path.append("C:\\Users\\Gabriel\\Documents\\GitHub\\frro-soporte-2019-02\\practico_05")
+sys.path.append("C:\\Users\\Gabriel\\Documents\\GitHub\\frro-soporte-2019-02\\practico_06")
+
+from capa_negocio import NegocioSocio
+from ejercicio_01 import Socio
 
 class SociosTK:
 
